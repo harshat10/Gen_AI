@@ -18,8 +18,30 @@ Curates courses, certifications and projects from online destiinations.
 Real-time trends for in-demand skills, salaries and opportunities.
 #### 6.Interactive Chatbot 
 Users can ask questions related to their career questions and gain further guidance.
-### Python Code:
+### career_advisor.py:
 ```
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Apply Montserrat font globally */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Title style */
+.css-10trblm { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px !important;
+    color: #2E86C1;
+    font-weight: 700;
+}
+
+/* Sidebar style */
+.css-1d391kg {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+</style>
 import streamlit as st
 career_data = {
     "Data Science": {
